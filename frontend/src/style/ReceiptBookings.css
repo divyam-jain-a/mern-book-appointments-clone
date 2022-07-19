@@ -1,0 +1,16 @@
+.appointment-message {
+  border-bottom: 0.5px solid rgba(28, 28, 28, 0.111);
+}
+
+.appointment-message > p {
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+}
+
+.material-symbols-rounded {
+  color: rgb(0, 212, 0);
+  position: absolute;
+  margin-top: 0.25rem;
+  font-size: 2rem;
+  margin-left: -2.7rem;
+}

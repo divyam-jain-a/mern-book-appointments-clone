@@ -1,0 +1,72 @@
+.doctors-box {
+  margin: 2rem;
+  box-shadow: 0px 0px 1.5px 0px rgba(84, 84, 84, 0.449);
+  border-radius: 7px;
+  padding: 15px;
+}
+
+.doc-one {
+  border-bottom: 0.5px solid rgba(28, 28, 28, 0.111);
+  height: 10.5rem;
+  margin: 1.5rem;
+}
+
+.doc-one > img {
+  width: 8rem;
+  border: 1px solid #ffa2005f;
+  padding: 10px;
+  border-radius: 7px;
+  opacity: 0.7;
+}
+
+.doc-name {
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  margin-left: 11rem;
+  margin-top: -8.5rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: rgb(40, 40, 40);
+}
+
+.doc-degree {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 11rem;
+  margin-top: -6.5rem;
+}
+
+.doc-speciality {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 11rem;
+  margin-top: 0rem;
+}
+
+.doc-experience {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 11rem;
+  margin-top: 0rem;
+}
+
+.doc-fees {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 11rem;
+  margin-top: 0rem;
+}
+
+.doc-one > button {
+  height: 2.3rem;
+  width: 11rem;
+  border-radius: 5px;
+  background-color: #ffa200;
+  border: none;
+  font-size: 0.92vw;
+  color: rgb(255, 255, 255);
+  box-shadow: 0.5px 0.5px 2px 0.4px rgba(0, 0, 0, 0.441);
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  transition: 0.3s ease;
+  right: 8.5rem;
+  margin-top: -5rem;
+  position: absolute;
+}

@@ -1,0 +1,24 @@
+.doctor-panel {
+  background-color: black;
+  width: 90%;
+  margin-left: 5rem;
+  height: auto;
+  z-index: 2;
+  position: absolute;
+  margin-top: 42rem;
+  box-shadow: 0px 0px 6px 0px rgba(84, 84, 84, 0.449);
+  background-color: white;
+  border-radius: 7px;
+}
+
+.doctor-panel > p {
+  font-size: 1.5rem;
+  font-family: "Overlock", cursive;
+  letter-spacing: 0.25x;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.doctor-panel > p > b {
+  color: #ffa200;
+}

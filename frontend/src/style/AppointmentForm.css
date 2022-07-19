@@ -1,0 +1,114 @@
+.form-appointment {
+  background-color: #ffa200;
+  border-radius: 7px;
+  padding: 1rem;
+  width: 78%;
+  margin-left: 7.3rem;
+}
+
+.heading-form {
+  background-color: #ffa200;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.1vw;
+  text-shadow: 2px 2px 0.8px #3c3c3b68;
+  margin-top: 0rem;
+}
+
+.all-form-elements {
+  display: flex;
+}
+
+.input-boxx {
+  margin-top: 0.3vw;
+  width: 20vw;
+  padding-left: 0.8vw;
+  height: 2.3vw;
+  font-size: 1vw;
+  outline: none;
+  border-radius: 7px;
+  font-weight: 500;
+  border-width: 0;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Open Sans", sans-serif;
+}
+
+.form-patient,
+.input-box-date,
+.input-box-time {
+  background-color: #ffa200;
+  color: white;
+  font-weight: bolder;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2vw;
+  text-shadow: 2px 2px 0.8px #3c3c3b68;
+  margin-top: 0.3rem;
+}
+
+.form-patient {
+  margin-left: 1.8rem;
+}
+
+.input-box-date,
+.input-box-time {
+  margin-left: 7rem;
+}
+
+.input-box-date > input {
+  width: 10rem;
+  border-radius: 7px;
+  height: 2rem;
+  font-weight: 500;
+  border-width: 0;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Open Sans", sans-serif;
+  padding: 0.8vw;
+  height: 0.8vw;
+  font-size: 1vw;
+  outline: none;
+  margin-top: 0.3rem;
+}
+
+.input-box-time > select {
+  width: 10rem;
+  border-radius: 7px;
+  height: 2rem;
+  font-weight: 500;
+  border-width: 0;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Open Sans", sans-serif;
+  padding-left: 0.5vw;
+  padding-right: 0.8vw;
+  height: 2.4vw;
+  font-size: 1vw;
+  outline: none;
+  margin-top: 0.3rem;
+}
+
+.form-btn1,
+.form-btn2 {
+  height: 2.9vw;
+  width: 7vw;
+  border-radius: 8px;
+  margin-left: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  background-color: #272727;
+  border: none;
+  font-size: 1.1vw;
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 2px 0.5px rgba(0, 0, 0, 0.508);
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.form-btn1 {
+  margin-left: 69%;
+}
