@@ -25,11 +25,6 @@ function AppointmentForm(props) {
     setTime("");
   };
 
-  // const cancelbuttonHandler = ()=>{
-  //   let cancel = false;
-  //   props.cancel(cancel)
-  // }
-
   return (
     <>
       <br />
@@ -54,6 +49,7 @@ function AppointmentForm(props) {
             <input
               required
               type="date"
+              min="2022-08-05"
               onChange={dateChangeHandler}
               value={date}
             />

@@ -71,7 +71,7 @@ const Register = () => {
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              placeholder="Name"
+              placeholder="Full Name"
             />
             <input
               className="input-box-reg"
